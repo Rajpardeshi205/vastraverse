@@ -17,7 +17,7 @@ const Header = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", path: "/", icon: FiHome },
+    { name: "Home", path: "/vastraverse", icon: FiHome },
     { name: "Categories", path: "/categories", icon: FiGrid },
     { name: "Cart", path: "/cart", icon: FiShoppingCart },
     { name: "About", path: "/about", icon: FiInfo },
@@ -102,7 +102,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/vastraverse" className="flex items-center gap-2">
             <div className="h-10 w-10 md:h-12 md:w-12">
               <img
                 src="./Images/logo.png"

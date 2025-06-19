@@ -17,7 +17,7 @@ const App = () => {
       <Layout>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/vastraverse" element={<Homepage />} />
           <Route path="/categories" element={<MainCategories />} />
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/cart" element={<CartPage />} />
