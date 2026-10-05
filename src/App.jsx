@@ -8,7 +8,7 @@ import ProductPage from "./Components/Categories/Items/ProductPage";
 import ScrollToTop from "./ScrollToTop";
 import CartPage from "./Components/Cart/cart";
 import Login from "./Components/Login/Login";
-import Signup from "./Components/Login/signup";
+import Signup from "./Components/Login/Signup";
 import About from "./Components/About/about";
 
 const App = () => {
